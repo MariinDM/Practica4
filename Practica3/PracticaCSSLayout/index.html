@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica Layout</title>
+    <style>
+        *{ margin: 0px; margin-top: 10px; }
+        body { background: #CECECE; background: radial-gradient(ellipse at center, #CECECE 0%, #9BF2F0 0%, #000000 100%); }
+        .tex{ color: #616161; background: #bababa; text-shadow: #e0e0e0 1px 1px 0; }
+        header, nav,footer { width: 90%; height: 90px; border: solid 5px white; margin-left: 5%; line-height: 90px; }
+        section, article{ border: solid 5px white; margin-left: 5%; width: 65%; height: 150px; line-height: 150px; display: inline-block; }
+        aside{ width:23%; display: inline-block; border: solid 5px white; height: 320px; line-height: 320px; margin-top: -330px; margin-right: 57px; float: right; }
+        .text-cent { text-align: center; }
+        #hei{ height: 50px; line-height: 50px; }
+    </style>
+</head>
+<body>
+<header class="text-cent tex">HEADER</header>
+<nav id="hei" class="text-cent tex">NAV</nav>
+<div>
+    <section class="text-cent tex">SECTION</section>
+    <article class="text-cent tex">ARTICLE</article>
+</div>
+<aside class="text-cent tex">ASIDE</aside>
+<footer class="text-cent tex">FOOTER</footer>
+</body>
+</html>
